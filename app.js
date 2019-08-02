@@ -72,7 +72,7 @@ app.post('/upload', (req, res) => {
         });
       } else {
         var images_file = fs.createReadStream(`./public/uploads/${req.file.filename}`);
-        var classifier_ids = ["Tiposdetaco_2107577272"];
+        Tacooos_270341629
         console.log("datos de la imagen -- " + images_file);
         //
           var params = {
